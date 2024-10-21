@@ -12,26 +12,68 @@ Select ONE Additional Feature to Add
 [ no ] Feature 4 - Embed YouTube Video
 [ no ] Feature 5 - Include Border CSS Property
 -->
-    
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Unit 2 Project</title>
-      <style>
-        h2 {
-          color: rgb(206, 30, 170);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        body {
+            background-color: rgba(129, 27, 59, 1); /* Background color */
+            background-image: url('https://example.com/background.jpg'); /* Feature 1: Background Image */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: rgba(212, 207, 208, 1); /* Text color */
         }
-        body { background-color: rgb(129, 27, 59, 1);
-          }
-      </style>
-    </head>
-   <body>
-         <h1>Queens, New York</h1>
-     <img src="https://th.bing.com/th/id/OIP.aGDtOWRfIXGRe7de4sq8nQHaE8?rs=1&pid=ImgDetMain"
-               width="275"
-     
-      
-       
+        h1, h2 {
+            color: rgba(234, 150, 168, 1); /* Highlight color for headers */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Optional shadow for effect */
+            border: 2px solid rgba(232, 115, 217, 1); /* Border color */
+            padding: 10px; /* Padding around the text */
+            border-radius: 8px; /* Optional rounded corners */
+            display: inline-block; /* Adjust to fit border tightly */
+        }
+        .highlight {
+            color: #ff6347; /* Class selector example */
+        }
+        #dream-shoe-list {
+            list-style-type: square; /* ID selector example */
+        }
+        #top-shoes {
+            margin-top: 20px;
+        }
+        img {
+            border-radius: 10px; /* Feature 2: Border Radius CSS Property */
+        }
+    </style>
+</head>
+<body>
+    <h1><u>✨Dream Shoe List✨</u></h1>
+    <ul id="dream-shoe-list"> 
+        <li><strong>UGG Women's Lowmel Suede Mesh Sneakers</strong></li>
+        <li>Red Adidas Campus 00s</li>
+        <li><strong><em>White Airforce 1's</em></strong></li>
+        <li><strong>Black Birkenstock Clogs</strong></li>
+        <li>Tasman Uggs</li>
+        <li><strong>Jordan 4's ALL COLORS</strong></li>
+        <li><em>Vans Knu Skool</em></li>
+        <li>Vintage Mule Slippers</li>
+        <li><strong>Adidas Sambas ALL COLORS/DESIGNS</strong></li>
+    </ul>
+    
+    <h2>Which Shoe to Get First?</h2>
+    <ol id="top-shoes">
+        <li>UGG Women's Lowmel Suede Mesh Sneakers 👌
+            <img src="https://mainlandskateandsurf.com/cdn/shop/files/ugg-boots-lowmel-womens-sneaker-chestnut-114032-3_680x.png?v=1721433073" width="75" alt="UGG Sneakers">
+        </li>
+        <li>White Airforce 1's 🙏
+            <img src="https://media.finishline.com/i/finishline/DD8959_100_P2?$default$&w=670&h=670&bg=rgb(237,237,237)" width="75" alt="White Airforce 1's">
+        </li>
+        <li>Black Birkenstock Clogs 😍
+            <img src="https://www.birkenstock.com/on/demandware.static/-/Sites-master-catalog/default/dwe808ad9a/660473/660473_pair.jpg" width="75" alt="Black Birkenstock Clogs">
+        </li>
+        <li>Adidas Sambas ALL COLORS/DESIGNS 🤭</li>
+        <li>Jordan 4's ALL COLORS 🤑</li>
+    </ol>
 </body>
 </html>
